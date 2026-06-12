@@ -76,16 +76,37 @@ a, p {
 .section-two {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.section-two h2 {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .image-list {
     display: flex;
+    gap: 40px;
+    justify-content: center;
 }
 
-.images-in-list{
+.image-in-list{
     width: 150px;
     height: 150px;
     object-fit: cover;
+    border:#3882F6 solid;
+    border-radius: 9px;
+    margin-bottom: 10px;
 }
 
+.img-text {
+    color:#77797d
+}
 
+.image-list-item {
+    text-align: center;
+    width: 150px;
+}
