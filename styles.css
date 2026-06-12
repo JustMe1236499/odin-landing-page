@@ -97,7 +97,7 @@ a, p {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border:#3882F6 solid;
+    border:3px #3882F6 solid;
     border-radius: 9px;
     margin-bottom: 10px;
 }
