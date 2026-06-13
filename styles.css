@@ -58,6 +58,7 @@ a, p {
     justify-content: space-between;
     margin-right: auto;
     max-width: 600px;
+    gap: 7px;
 }
 
 .section-one {
@@ -71,6 +72,10 @@ a, p {
     width: 400px;
     max-width: 100%;
     height: auto;
+}
+
+.section-one button {
+    margin-top: 25px;
 }
 
 .section-two {
@@ -109,4 +114,27 @@ a, p {
 .image-list-item {
     text-align: center;
     width: 150px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 60px 180px;
+    align-items: center;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+    padding: 0px 20px;
+}
+.quote {
+    color: #1F2937;
+    font-weight: 300;
+}
+.author {
+    align-self: flex-end;
+    color:#1F2937;
+    font-weight: bold;
 }
