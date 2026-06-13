@@ -79,7 +79,7 @@ a {
 }
 
 .section-one button {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .section-two {
@@ -152,7 +152,7 @@ a {
     background-color:#3882F6;
     color: #F9FAF8;
     max-width: 800px;
-    margin: 50px auto;
+    margin: 80px auto;
     border-radius: 9px;
 }
 
@@ -164,9 +164,19 @@ a {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding: 10px 20px;
+    padding: 6px 20px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.footer p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
 
 
 
